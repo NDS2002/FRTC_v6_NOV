@@ -4,7 +4,7 @@
   "spectrum": {
     "kind": "spectrum_2D",
     "source": "D:/Dev/spcp2.dat",
-    "axis": 0,
+    "coordinate_system": 0,
     "angle": 0.0
   }
 }

@@ -3,8 +3,8 @@
   "comment": "230412",
   "spectrum": {
     "kind": "spectrum_1D",
-    "source": "230412.dat",
-    "axis": 0,
+    "source": "FT2_spcpz_231222.dat",
+    "coordinate_system": 0,
     "angle": 0.0,
     "PWM": true
   }

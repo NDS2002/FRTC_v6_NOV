@@ -305,7 +305,7 @@ contains
         use metrics
         use dielectric_tensor
         use dispersion_equation, only : as, bs, yny, ynz, ynzq
-        use iterator_mod
+        use small_vgrid, only: distr
         use source_new_mod, only: source_new
         implicit none
         real(wp), intent(in) :: pa, yn2, ptet, yn3, ynpopq, xnr
@@ -326,7 +326,7 @@ contains
         cf4=xnr
         cf5=yn2
         vz=cltn/dabs(ynz)
-        if(vz.gt.cltn) vz=cltn !sav2010
+        !if(vz.gt.cltn) vz=cltn !sav2010
         vt=fvt(pa)
         !jr=jfoundr
         icf1=iw
