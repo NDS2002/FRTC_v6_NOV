@@ -2,7 +2,7 @@
   "name": "FT2_base",
   "comment": "base config",
   "physical_parameters": {
-    "freq": 0.92,
+    "freq": 25.0,
     "xmi1": 1.0,
     "zi1": 1.0,
     "xmi2": 16.0,
@@ -51,7 +51,7 @@
     "inew": -1,
     "itor": 1,
     "ipol": 1,
-    "upl_fix": false,
+    "upl_fix": true,
     "upl_value": 0.0,
     "fp_solver": 0,
     "traj_len_seved": 50,
@@ -59,9 +59,9 @@
     "max_size_of_traj": 10000
   },
   "grill_parameters": {
-    "Zplus": 8.0,
-    "Zminus": -8.0,
-    "ntet": 15,
+    "Zplus": 2.0,
+    "Zminus": -2.0,
+    "ntet": 100,
     "nnz": 100
   }
 }
